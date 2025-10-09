@@ -62,7 +62,17 @@ const projects = [
     tech: ['React', 'Tailwind CSS', 'TypeScript'],
     liveUrl: 'https://mangaverse-admin.netlify.app/',
     githubUrl: '#'
-  }
+  },
+  {
+  id: 6,
+  title: 'Luxia Hotels',
+  category: 'Advanced Websites',
+  description: 'Modern hotel booking platform with real-time room availability, interactive gallery, location map, and seamless online reservations for guests worldwide.',
+  image: portfolio6,
+  tech: ['React', 'Tailwind CSS', 'TypeScript'],
+  liveUrl: 'https://luxiahotels.netlify.app/',
+  githubUrl: '#'
+},
 ];
 
 export default function Portfolio() {
