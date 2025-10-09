@@ -9,6 +9,7 @@ import portfolio3 from '@/assets/portfolio-3.png';
 import portfolio4 from '@/assets/portfolio-4.png';
 import portfolio5 from '@/assets/portfolio-5.png';
 import portfolio6 from '@/assets/portfolio-6.png';
+import portfolio7 from '@/assets/portfolio-7.png';
 
 const categories = ['All', 'Landing Pages', 'Dashboards', 'Portfolios', 'Advanced Websites', 'Minor Websites'];
 
@@ -71,6 +72,16 @@ const projects = [
   image: portfolio6,
   tech: ['React', 'Tailwind CSS', 'TypeScript'],
   liveUrl: 'https://luxiahotels.netlify.app/',
+  githubUrl: '#'
+},
+{
+  id: 7,
+  title: 'Pretty Pink Donuts',
+  category: 'Advanced Websites',
+  description: 'Deliciously designed donut shop website featuring an interactive product menu, flavor customizer, online ordering, and smooth checkout experience with sweet animations.',
+  image: portfolio7,
+  tech: ['React', 'Tailwind CSS', 'TypeScript'],
+  liveUrl: 'https://prettypinkdonuts.netlify.app/',
   githubUrl: '#'
 },
 ];
