@@ -88,7 +88,7 @@ const projects = [
 {
   id: 8,
   title: 'RidoPay',
-  category: 'Landing Page',
+  category: 'Landing Pages',
   description:
     'Modern financial payment platform landing page that highlights seamless transactions, secure payment gateways, and global transfers — featuring glassy gradients, smooth scroll effects, and responsive Tailwind design.',
   image: portfolio8,
