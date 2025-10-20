@@ -10,6 +10,7 @@ import portfolio4 from '@/assets/portfolio-4.png';
 import portfolio5 from '@/assets/portfolio-5.png';
 import portfolio6 from '@/assets/portfolio-6.png';
 import portfolio7 from '@/assets/portfolio-7.png';
+import portfolio8 from '@/assets/portfolio-8.png';
 
 const categories = ['All', 'Landing Pages', 'Dashboards', 'Portfolios', 'Advanced Websites', 'Minor Websites'];
 
@@ -82,6 +83,17 @@ const projects = [
   image: portfolio7,
   tech: ['React', 'Tailwind CSS', 'TypeScript'],
   liveUrl: 'https://prettypinkdonuts.netlify.app/',
+  githubUrl: '#'
+},
+{
+  id: 8,
+  title: 'RidoPay',
+  category: 'Landing Page',
+  description:
+    'Modern financial payment platform landing page that highlights seamless transactions, secure payment gateways, and global transfers — featuring glassy gradients, smooth scroll effects, and responsive Tailwind design.',
+  image: portfolio8,
+  tech: ['React.js', 'Tailwind CSS', 'TypeScript'],
+  liveUrl: 'https://rido-pay.netlify.app/',
   githubUrl: '#'
 },
 ];
