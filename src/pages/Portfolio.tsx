@@ -11,8 +11,9 @@ import portfolio5 from '@/assets/portfolio-5.png';
 import portfolio6 from '@/assets/portfolio-6.png';
 import portfolio7 from '@/assets/portfolio-7.png';
 import portfolio8 from '@/assets/portfolio-8.png';
+import portfolio9 from '@/assets/portfolio-9.png';
 
-const categories = ['All', 'Landing Pages', 'Dashboards', 'Portfolios', 'Advanced Websites', 'Minor Websites'];
+const categories = ['All', 'Landing Pages', 'Dashboards', 'Progressive Web App', 'Advanced Websites', 'Minor Websites'];
 
 const projects = [
   {
@@ -94,6 +95,17 @@ const projects = [
   image: portfolio8,
   tech: ['React.js', 'Tailwind CSS', 'TypeScript'],
   liveUrl: 'https://rido-pay.netlify.app/',
+  githubUrl: '#'
+},
+{
+  id: 9,
+  title: 'FoodSwift',
+  category: 'Progressive Web App',
+  description:
+    'A sleek PWA food delivery platform that lets users browse nearby restaurants, track orders in real-time, and enjoy fast, app-like performance — featuring modern UI, offline access, and seamless checkout flow built with React and Tailwind.',
+  image: portfolio9,
+  tech: ['React.js', 'Tailwind CSS', 'TypeScript', 'PWA'],
+  liveUrl: 'https://foodswiftdeliveryapp.netlify.app/',
   githubUrl: '#'
 },
 ];
