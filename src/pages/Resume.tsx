@@ -13,7 +13,7 @@ import {
 const experiences = [
   {
     title: 'Frontend Developer',
-    company: 'Lagetronix',
+    company: 'Lagetronix - (Contract)',
     location: 'Lagos, NG',
     period: 'April 2025 - Present',
     description: 'Contributed to the development of several web applications using React and Next.js, implementing responsive designs and optimizing performance by 40%. Collaborated with cross-functional teams to ensure code quality and consistency, and supported peers through code reviews and documentation.',
@@ -25,7 +25,7 @@ const experiences = [
   },
   {
     title: 'Frontend Developer',
-    company: 'Pro-Ice Ltd',
+    company: 'Pro-Ice Ltd - (Part-Time)',
     location: 'Lagos, NG',
     period: 'April 2024 - Present',
     description: 'Developed and maintained client websites using modern JavaScript frameworks. Collaborated with designers to implement pixel-perfect UI. Improved site performance and accessibility.',
@@ -37,7 +37,7 @@ const experiences = [
   },
   {
     title: 'Frontend Developer',
-    company: 'LexJon Technologies',
+    company: 'LexJon Technologies - (Contract)',
     location: 'Lagos, NG',
     period: 'December 2024 - March 2025',
     description: 'Assisted in the development of admin websites. Gained experience with React and state management. Participated in team meetings and client presentations.',
