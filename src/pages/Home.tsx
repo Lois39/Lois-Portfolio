@@ -88,8 +88,8 @@ export default function Home() {
             </Link>
             
             <a
-      href="/src/assets/resume.pdf"    
-      download="Lois-Okereke-Resume.pdf"
+      href="/src/assets/Lois CV.pdf"    
+      download="Lois CV.pdf"
       target="_blank"    
       rel="noopener noreferrer"
     >

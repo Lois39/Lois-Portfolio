@@ -15,7 +15,7 @@ const experiences = [
     title: 'Frontend Developer',
     company: 'Lagetronix - (Contract)',
     location: 'Lagos, NG',
-    period: 'April 2025 - Present',
+    period: 'April 2025 - December 2025',
     description: 'Contributed to the development of several web applications using React and Next.js, implementing responsive designs and optimizing performance by 40%. Collaborated with cross-functional teams to ensure code quality and consistency, and supported peers through code reviews and documentation.',
     achievements: [
       'Optimized performance by 40%',
@@ -27,7 +27,7 @@ const experiences = [
     title: 'Frontend Developer',
     company: 'Pro-Ice Ltd - (Part-Time)',
     location: 'Lagos, NG',
-    period: 'April 2024 - Present',
+    period: 'April 2024 - June 2025',
     description: 'Developed and maintained client websites using modern JavaScript frameworks. Collaborated with designers to implement pixel-perfect UI. Improved site performance and accessibility.',
     achievements: [
       'Developed multiple client websites',
@@ -95,8 +95,8 @@ export default function Resume() {
             My professional journey and achievements in web development and design
           </p>
           <a
-            href="/src/assets/resume.pdf"    
-            download="Lois-Okereke-Resume.pdf"
+            href="/src/assets/Lois CV.pdf"    
+            download="Lois CV.pdf"
             target="_blank"    
             rel="noopener noreferrer"
           >
