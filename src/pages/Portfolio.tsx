@@ -32,7 +32,7 @@ const projects = [
     category: 'Advanced Websites',
     description: 'Interview preparation platform with personalized practice and role-specific mock sessions',
     image: portfolio2,
-    tech: ['React', 'TypeScript', 'Supabase'],
+    tech: ['NextJS', 'TypeScript', 'Supabase'],
     liveUrl: 'https://prepwiseai.netlify.app/',
     githubUrl: '#'
   },
@@ -72,7 +72,7 @@ const projects = [
   category: 'Advanced Websites',
   description: 'Modern hotel booking platform with real-time room availability, interactive gallery, location map, and seamless online reservations for guests worldwide.',
   image: portfolio6,
-  tech: ['React', 'Tailwind CSS', 'TypeScript'],
+  tech: ['NextJS', 'Tailwind CSS', 'TypeScript'],
   liveUrl: 'https://luxiahotels.netlify.app/',
   githubUrl: '#'
 },
