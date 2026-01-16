@@ -14,6 +14,7 @@ import portfolio8 from '@/assets/portfolio-8.png';
 import portfolio9 from '@/assets/portfolio-9.png';
 import portfolio10 from '@/assets/portfolio-10.png';
 import portfolio11 from '@/assets/portfolio-11.png';
+import portfolio12 from '@/assets/portfolio-12.png';
 
 const categories = ['All', 'Landing Pages', 'Dashboards', 'Progressive Web App', 'Advanced Websites'];
 
@@ -89,16 +90,27 @@ const projects = [
   liveUrl: 'https://luxiahotels.netlify.app/',
   githubUrl: '#'
 },
+// {
+//   id: 7,
+//   title: 'Pretty Pink Donuts',
+//   category: 'Advanced Websites',
+//   description: 'Deliciously designed donut shop website featuring an interactive product menu, flavor customizer, online ordering, and smooth checkout experience with sweet animations.',
+//   image: portfolio7,
+//   tech: ['React', 'Tailwind CSS', 'TypeScript'],
+//   liveUrl: 'https://prettypinkdonuts.netlify.app/',
+//   githubUrl: '#'
+// },
 {
   id: 7,
-  title: 'Pretty Pink Donuts',
-  category: 'Advanced Websites',
-  description: 'Deliciously designed donut shop website featuring an interactive product menu, flavor customizer, online ordering, and smooth checkout experience with sweet animations.',
-  image: portfolio7,
-  tech: ['React', 'Tailwind CSS', 'TypeScript'],
-  liveUrl: 'https://prettypinkdonuts.netlify.app/',
+  title: 'Planora',
+  category: 'Landing Pages',
+  description: 'A conversion-focused SaaS landing page designed to showcase features, pricing, and product value with clarity',
+  image: portfolio12,
+  tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+  liveUrl: 'https://planoraapp.netlify.app/',
   githubUrl: '#'
 },
+
 {
   id: 8,
   title: 'RidoPay',
