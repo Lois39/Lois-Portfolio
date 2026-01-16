@@ -12,8 +12,10 @@ import portfolio6 from '@/assets/portfolio-6.png';
 import portfolio7 from '@/assets/portfolio-7.png';
 import portfolio8 from '@/assets/portfolio-8.png';
 import portfolio9 from '@/assets/portfolio-9.png';
+import portfolio10 from '@/assets/portfolio-10.png';
+import portfolio11 from '@/assets/portfolio-11.png';
 
-const categories = ['All', 'Landing Pages', 'Dashboards', 'Progressive Web App', 'Advanced Websites', 'Minor Websites'];
+const categories = ['All', 'Landing Pages', 'Dashboards', 'Progressive Web App', 'Advanced Websites'];
 
 const projects = [
   {
@@ -37,15 +39,26 @@ const projects = [
     githubUrl: '#'
   },
   {
-    id: 3,
-    title: 'Savore Restaurant',
-    category: 'Advanced Websites',
-    description: 'Elegant and fully responsive restaurant website featuring an interactive menu, online table reservations, and dynamic chef specials section.',
-    image: portfolio3,
-    tech: ['React', 'Tailwind CSS'],
-    liveUrl: 'https://savorerestaurants.netlify.app/',
-    githubUrl: '#'
-  },
+  id: 3,
+  title: 'Crowns Estate',
+  category: 'Advanced Websites',
+  description: 'Modern real estate platform for property listings, agent profiles, and seamless property discovery',
+  image: portfolio10,
+  tech: ['React', 'TypeScript', 'Supabase'],
+  liveUrl: 'https://crowns-estate.netlify.app/',
+  githubUrl: '#'
+},
+
+  // {
+  //   id: 3,
+  //   title: 'Savore Restaurant',
+  //   category: 'Advanced Websites',
+  //   description: 'Elegant and fully responsive restaurant website featuring an interactive menu, online table reservations, and dynamic chef specials section.',
+  //   image: portfolio3,
+  //   tech: ['React', 'Tailwind CSS'],
+  //   liveUrl: 'https://savorerestaurants.netlify.app/',
+  //   githubUrl: '#'
+  // },
   {
     id: 4,
     title: 'Hikari Tales',
@@ -108,6 +121,17 @@ const projects = [
   liveUrl: 'https://foodswiftdeliveryapp.netlify.app/',
   githubUrl: '#'
 },
+{
+  id: 10,
+  title: 'Zencha',
+  category: 'Landing Pages',
+  description: 'A modern matcha brand website showcasing products, rituals, and a calm, minimalist shopping experience',
+  image: portfolio11,
+  tech: ['Nextjs', 'TypeScript', 'Tailwind CSS'],
+  liveUrl: 'https://zencha.netlify.app/',
+  githubUrl: '#'
+},
+
 ];
 
 export default function Portfolio() {
