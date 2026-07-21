@@ -89,7 +89,7 @@ export default function Home() {
             
             <a
       href="/src/assets/My Cv.pdf"    
-      download="My Cv.pdf"
+      download="Lois Resume.pdf"
       target="_blank"    
       rel="noopener noreferrer"
     >

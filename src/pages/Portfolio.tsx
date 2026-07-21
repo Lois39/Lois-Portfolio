@@ -3,147 +3,143 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github, Filter } from 'lucide-react';
-import portfolio1 from '@/assets/portfolio-1.png';
-import portfolio2 from '@/assets/portfolio-2.png';
-import portfolio3 from '@/assets/portfolio-3.png';
-import portfolio4 from '@/assets/portfolio-4.png';
-import portfolio5 from '@/assets/portfolio-5.png';
-import portfolio6 from '@/assets/portfolio-6.png';
-import portfolio7 from '@/assets/portfolio-7.png';
-import portfolio8 from '@/assets/portfolio-8.png';
-import portfolio9 from '@/assets/portfolio-9.png';
-import portfolio10 from '@/assets/portfolio-10.png';
-import portfolio11 from '@/assets/portfolio-11.png';
-import portfolio12 from '@/assets/portfolio-12.png';
+
+import portfolio1 from '@/assets/3.png';
+import portfolio2 from '@/assets/10.png';
+import portfolio3 from '@/assets/4.png';
+import portfolio4 from '@/assets/12.png';
+import portfolio5 from '@/assets/8.png';
+import portfolio6 from '@/assets/9.png';
+import portfolio7 from '@/assets/1.png';
+import portfolio8 from '@/assets/11.png';
+import portfolio9 from '@/assets/5.png';
+import portfolio10 from '@/assets/6.png';
+import portfolio11 from '@/assets/7.png';
 
 const categories = ['All', 'Landing Pages', 'Dashboards', 'Progressive Web App', 'Advanced Websites'];
 
 const projects = [
   {
     id: 1,
-    title: 'NOVA E-Commerce Platform',
+    title: 'KoinSave',
     category: 'Advanced Websites',
-    description: 'Modern e-commerce platform with advanced filtering and payment integration',
+    description: 'A comprehensive financial platform for savings, investment tracking, and wealth management with real-time analytics.',
     image: portfolio1,
-    tech: ['React', 'Tailwind CSS', 'Stripe'],
-    liveUrl: 'https://novafashion.netlify.app/',
-    githubUrl: '#'
+    tech: ['React', 'Tailwind CSS', 'TypeScript'],
+    liveUrl: 'https://koinsave.co/',
+    githubUrl: '#',
+    featured: true
   },
   {
     id: 2,
-    title: 'PrepWise',
+    title: 'Chic Collective',
     category: 'Advanced Websites',
-    description: 'Interview preparation platform with personalized practice and role-specific mock sessions',
+    description: 'Modern e-commerce platform with advanced filtering and payment integration',
     image: portfolio2,
-    tech: ['NextJS', 'TypeScript', 'Supabase'],
-    liveUrl: 'https://prepwiseai.netlify.app/',
-    githubUrl: '#'
+    tech: ['React', 'Tailwind CSS', 'Stripe'],
+    liveUrl: 'https://chic-collective-fashion-brand.netlify.app/',
+    githubUrl: '#',
+    featured: false
   },
   {
-  id: 3,
-  title: 'Crowns Estate',
-  category: 'Advanced Websites',
-  description: 'Modern real estate platform for property listings, agent profiles, and seamless property discovery',
-  image: portfolio10,
-  tech: ['React', 'TypeScript', 'Supabase'],
-  liveUrl: 'https://crowns-estate.netlify.app/',
-  githubUrl: '#'
-},
-
-  // {
-  //   id: 3,
-  //   title: 'Savore Restaurant',
-  //   category: 'Advanced Websites',
-  //   description: 'Elegant and fully responsive restaurant website featuring an interactive menu, online table reservations, and dynamic chef specials section.',
-  //   image: portfolio3,
-  //   tech: ['React', 'Tailwind CSS'],
-  //   liveUrl: 'https://savorerestaurants.netlify.app/',
-  //   githubUrl: '#'
-  // },
+    id: 3,
+    title: 'Crowns Estate',
+    category: 'Advanced Websites',
+    description: 'Modern real estate platform for property listings, agent profiles, and seamless property discovery',
+    image: portfolio3,
+    tech: ['React', 'TypeScript', 'Supabase'],
+    liveUrl: 'https://crowns-estate.netlify.app/',
+    githubUrl: '#',
+    featured: false
+  },
   {
     id: 4,
-    title: 'Hikari Tales',
-    category: 'Advanced Websites',
-    description: 'Immersive manga reading platform with a vast library, high-resolution pages, customizable reading modes, and user favorites tracking.',
+    title: 'Planora',
+    category: 'Landing Pages',
+    description: 'A conversion-focused SaaS landing page designed to showcase features, pricing, and product value with clarity',
     image: portfolio4,
-    tech: ['React', 'Tailwind CSS', 'Typescript'],
-    liveUrl: 'https://hikaritales.netlify.app/',
-    githubUrl: '#'
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    liveUrl: 'https://planoraapp.netlify.app/',
+    githubUrl: '#',
+    featured: false
   },
   {
     id: 5,
-    title: 'Hikari Tales Admin Portal',
-    category: 'Dashboards',
-    description: 'Comprehensive admin dashboard for managing manga uploads, chapters, genres, user accounts, and analytics with real-time updates.',
-    image: portfolio5, 
-    tech: ['React', 'Tailwind CSS', 'TypeScript'],
-    liveUrl: 'https://mangaverse-admin.netlify.app/',
-    githubUrl: '#'
+    title: 'Build Ark',
+    category: 'Advanced Websites',
+    description: 'Modern web application for a construction and architecture firm featuring project portfolios and service offerings.',
+    image: portfolio5,
+    tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    liveUrl: 'https://build-ark.vercel.app/',
+    githubUrl: '#',
+    featured: false
   },
   {
-  id: 6,
-  title: 'Luxia Hotels',
-  category: 'Advanced Websites',
-  description: 'Modern hotel booking platform with real-time room availability, interactive gallery, location map, and seamless online reservations for guests worldwide.',
-  image: portfolio6,
-  tech: ['NextJS', 'Tailwind CSS', 'TypeScript'],
-  liveUrl: 'https://luxiahotels.netlify.app/',
-  githubUrl: '#'
-},
-// {
-//   id: 7,
-//   title: 'Pretty Pink Donuts',
-//   category: 'Advanced Websites',
-//   description: 'Deliciously designed donut shop website featuring an interactive product menu, flavor customizer, online ordering, and smooth checkout experience with sweet animations.',
-//   image: portfolio7,
-//   tech: ['React', 'Tailwind CSS', 'TypeScript'],
-//   liveUrl: 'https://prettypinkdonuts.netlify.app/',
-//   githubUrl: '#'
-// },
-{
-  id: 7,
-  title: 'Planora',
-  category: 'Landing Pages',
-  description: 'A conversion-focused SaaS landing page designed to showcase features, pricing, and product value with clarity',
-  image: portfolio12,
-  tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-  liveUrl: 'https://planoraapp.netlify.app/',
-  githubUrl: '#'
-},
-
-{
-  id: 8,
-  title: 'RidoPay',
-  category: 'Landing Pages',
-  description:
-    'Modern financial payment platform landing page that highlights seamless transactions, secure payment gateways, and global transfers — featuring glassy gradients, smooth scroll effects, and responsive Tailwind design.',
-  image: portfolio8,
-  tech: ['React.js', 'Tailwind CSS', 'TypeScript'],
-  liveUrl: 'https://rido-pay.netlify.app/',
-  githubUrl: '#'
-},
-{
-  id: 9,
-  title: 'FoodSwift',
-  category: 'Progressive Web App',
-  description:
-    'A sleek PWA food delivery platform that lets users browse nearby restaurants, track orders in real-time, and enjoy fast, app-like performance — featuring modern UI, offline access, and seamless checkout flow built with React and Tailwind.',
-  image: portfolio9,
-  tech: ['React.js', 'Tailwind CSS', 'TypeScript', 'PWA'],
-  liveUrl: 'https://foodswiftdeliveryapp.netlify.app/',
-  githubUrl: '#'
-},
-{
-  id: 10,
-  title: 'Zencha',
-  category: 'Landing Pages',
-  description: 'A modern matcha brand website showcasing products, rituals, and a calm, minimalist shopping experience',
-  image: portfolio11,
-  tech: ['Nextjs', 'TypeScript', 'Tailwind CSS'],
-  liveUrl: 'https://zencha.netlify.app/',
-  githubUrl: '#'
-},
-
+    id: 6,
+    title: 'Sand Express',
+    category: 'Progressive Web App',
+    description: 'Logistics and delivery platform with tracking, service management, and a streamlined booking system.',
+    image: portfolio6,
+    tech: ['React', 'Tailwind CSS', 'Node.js'],
+    liveUrl: 'https://www.sandexpress.net/',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 7,
+    title: "Luchi's Kitchen",
+    category: 'Advanced Websites',
+    description: 'Modern catering services website for Luchi\'s Kitchen featuring menu showcases, ambiance highlights, and seamless online presence.',
+    image: portfolio7,
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    liveUrl: 'https://www.luchisonkitchen.com/',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 8,
+    title: 'Lovie Five',
+    category: 'Landing Pages',
+    description: 'Elegant e-commerce storefront with a focus on product presentation and smooth checkout experiences.',
+    image: portfolio8,
+    tech: ['React', 'Tailwind CSS', 'Framer Motion'],
+    liveUrl: 'https://lovie-five.vercel.app/',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 9,
+    title: 'Saltech AI Academy',
+    category: 'Advanced Websites',
+    description: 'Educational platform offering AI courses, interactive learning materials, and student progress tracking.',
+    image: portfolio9,
+    tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    liveUrl: 'https://www.saltechaiacademy.com/',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 10,
+    title: 'Suitroh',
+    category: 'Advanced Websites',
+    description: 'Professional corporate website with modern animations and service showcases for business clients.',
+    image: portfolio10,
+    tech: ['React', 'TypeScript', 'Tailwind CSS'],
+    liveUrl: 'https://www.suitroh.com/',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    id: 11,
+    title: 'School Flow',
+    category: 'Dashboards',
+    description: 'Comprehensive school management system featuring student dashboards, course tracking, and administrative tools.',
+    image: portfolio11,
+    tech: ['Next.js', 'Tailwind CSS', 'Prisma'],
+    liveUrl: 'https://school-flow-ochre.vercel.app/',
+    githubUrl: '#',
+    featured: false
+  }
 ];
 
 export default function Portfolio() {
@@ -214,10 +210,15 @@ export default function Portfolio() {
               </div>
 
               <div className="p-4 sm:p-6">
-                <div className="mb-3">
+                <div className="mb-3 flex gap-2 flex-wrap">
                   <Badge className="bg-primary/20 text-primary border border-primary/30 text-xs">
                     {project.category}
                   </Badge>
+                  {project.featured && (
+                    <Badge className="bg-amber-500/20 text-amber-500 border border-amber-500/30 text-xs animate-pulse">
+                      Featured
+                    </Badge>
+                  )}
                 </div>
                 
                 <h3 className="text-lg sm:text-xl font-bold mb-3 glow-text group-hover:text-primary transition-colors">
