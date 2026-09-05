@@ -88,16 +88,14 @@ export default function Home() {
             </Link>
             
             <a
-      href="/src/assets/My Cv.pdf"    
-      download="Lois Resume.pdf"
-      target="_blank"    
-      rel="noopener noreferrer"
-    >
-      <Button className="btn-glow">
-        <Download size={20} className="mr-2" />
-        Download my CV
-      </Button>
-    </a>
+              href="/Lois-Okereke-Resume.pdf"
+              download="Lois-Okereke-Resume.pdf"
+            >
+              <Button className="btn-glow">
+                <Download size={20} className="mr-2" />
+                Download my CV
+              </Button>
+            </a>
           </div>
 
           <div className="grid grid-cols-3 gap-6">
